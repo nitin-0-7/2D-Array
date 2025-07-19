@@ -28,7 +28,7 @@ int main()
     }
     printf("Your transpose matrix are :\n");
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
+        for(int j=i;j<n;j++){
             int temp=arr[i][j];  //swapping array
             arr[i][j]=arr[j][i];
             arr[j][i]=temp;
