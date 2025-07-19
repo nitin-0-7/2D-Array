@@ -38,7 +38,7 @@ int main()
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            printf("%d ",arr[j][i]);  //printing transpose array
+            printf("%d ",arr[i][j]);  //printing transpose array
         }
        printf("\n");
     }
